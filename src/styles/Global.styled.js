@@ -21,6 +21,8 @@ export const PaddingContainer = styled.div`
 
 export const FlexContainer = styled.div`
 	display: flex;
+	width: ${({ width }) => width};
+	flex-wrap: ${({ wrap }) => wrap};
 	justify-content: ${({ justify }) => justify};
 	align-items: ${({ align }) => align};
 	gap: ${({ gap }) => gap};

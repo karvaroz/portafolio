@@ -137,6 +137,8 @@ export const ProjectsData = [
 		description: "Question and answer contest",
 		stack: ["ReactJS", "Hooks", "React-router", "Tailwind CSS"],
 		image: contestImg,
+		demo: "https://blockmaster-karvaroz.vercel.app/",
+
 		github:
 			"https://github.com/karvaroz/concurso-de-preguntas-y-respuestas/blob/master/README.md",
 		reverse: true,
@@ -147,6 +149,7 @@ export const ProjectsData = [
 		description: "Creation of a simple react app with a star wars theme",
 		stack: ["ReactJS", "CSS", "Axios", "React-router", "API"],
 		image: contestImg,
+		demo: "https://blockmaster-karvaroz.vercel.app/",
 		github:
 			"https://github.com/karvaroz/concurso-de-preguntas-y-respuestas/blob/master/README.md",
 		reverse: false,

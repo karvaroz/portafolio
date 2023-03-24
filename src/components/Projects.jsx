@@ -25,12 +25,23 @@ const Projects = () => {
 				size="h2">
 				What <BlueText>I have built </BlueText>
 			</Heading>
-			{myProjects.map((project) => {
-				<ProjectCard
-					key={project.id}
-					project={project}
-				/>;
-			})}
+			<br />
+			<br />
+			<br />
+			<br />
+
+			{myProjects.map((project) => (
+				<React.Fragment>
+					<ProjectCard
+						key={project.id}
+						project={project}
+					/>
+					<br />
+					<br />
+					<br />
+					<br />
+				</React.Fragment>
+			))}
 		</PaddingContainer>
 	);
 };

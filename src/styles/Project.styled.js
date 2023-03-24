@@ -6,6 +6,7 @@ export const TechStackCard = styled.div`
 	color: #fff;
 	padding: 0.3rem 1rem;
 	border-radius: 5px;
+	margin-bottom: 1rem;
 `;
 
 export const ProjectImageContainer = styled.div`
@@ -16,7 +17,7 @@ export const ProjectImageContainer = styled.div`
 export const ProjectImage = styled.img`
 	border: 1px solid #fff;
 	width: 80%;
-	height: 300px;
+	height: 250px;
 	object-fit: cover;
 	border-radius: 10px;
 `;

@@ -2,13 +2,18 @@ import React from "react";
 import {
 	Button,
 	FlexContainer,
+	Heading,
+	IconContainer,
 	PaddingContainer,
+	Paragraph,
 } from "../styles/Global.styled";
 import {
 	ProjectImage,
 	ProjectImageContainer,
 	TechStackCard,
 } from "../styles/Project.styled";
+
+import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
 	return (
@@ -34,10 +39,13 @@ const ProjectCard = ({ project }) => {
 					</IconContainer>
 				</FlexContainer>
 				<PaddingContainer top="1rem">
-					<FlexContainer gap="1.5rem">
-						{project.stack.map((stack, idx) => {
-							<TechStackCard key={idx}>{stack}</TechStackCard>;
-						})}
+					<FlexContainer
+						gap="1rem"
+						width="500px"
+						wrap="wrap">
+						{project.stack.map((stack, idx) => (
+							<TechStackCard key={idx}>{stack}</TechStackCard>
+						))}
 					</FlexContainer>
 				</PaddingContainer>
 				<Paragraph
@@ -49,7 +57,7 @@ const ProjectCard = ({ project }) => {
 					href={project.demo}
 					target="_blank"
 					rel="noreferrer">
-					Live Demo
+					Demo
 				</Button>
 			</div>
 			<ProjectImageContainer justify="flex-end">
