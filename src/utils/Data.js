@@ -7,7 +7,7 @@ import pythonLogo from "../assets/svg/python.svg";
 import gitLogo from "../assets/svg/git.svg";
 import githubLogo from "../assets/svg/github.svg";
 import reduxLogo from "../assets/svg/redux.svg";
-import mongoLogo from "../assets/svg/mongo.svg";
+import mongoLogo from "../assets/svg/mongosvg.svg";
 import mysqlLogo from "../assets/svg/mysql.svg";
 import typescriptLogo from "../assets/svg/typescript.svg";
 import tailwindLogo from "../assets/svg/tailwindcss.svg";

@@ -54,11 +54,19 @@ const ShowCase = () => {
 					</Paragraph>
 					<FlexContainer gap="20px">
 						<IconContainer
+							as="a"
+							href="https://www.linkedin.com/in/karina-vargas-developer/"
+							target="_blank"
+							rel="noreferrer"
 							color="blue"
 							size="1.5rem">
 							<BsLinkedin />
 						</IconContainer>
 						<IconContainer
+							as="a"
+							href="https://github.com/karvaroz"
+							target="_blank"
+							rel="noreferrer"
 							color="blue"
 							size="1.5rem">
 							<BsGithub />
