@@ -42,9 +42,7 @@ const Community = () => {
 				height="auto"
 				title="Women Who Code Medellin"
 			/>
-
 			<br />
-
 			<img
 				src={blockchain}
 				alt="blockchain"
@@ -52,9 +50,7 @@ const Community = () => {
 				height="auto"
 				title="Blockchain eX - Innovation Center"
 			/>
-
 			<br />
-
 			<img
 				src={wwc2}
 				alt="wwc"
