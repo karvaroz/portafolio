@@ -9,11 +9,8 @@ import {
 import { SkillsCardContainer } from "../styles/Skills.styled";
 import { SkillsData } from "../utils/Data";
 
-import blockchain from "../assets/img/blockchainex_center.jpg";
-import wwc from "../assets/img/wwc.jpeg";
-import wwc2 from "../assets/img/wwc1.jpg";
-
 import SkillCard from "./SkillCard";
+import Community from "./Community";
 
 const Skills = () => {
 	const [mySkills, setMySkills] = useState([]);
@@ -56,62 +53,7 @@ const Skills = () => {
 						Redux has allowed me to create engaging and interactive web
 						applications.
 					</Paragraph>
-					<Heading
-						as="h4"
-						size="h4"
-						top="4rem">
-						Active participant
-					</Heading>
-					<Heading
-						as="h3"
-						size="h3"
-						top="0.5rem">
-						Learning and
-						<BlueText> Tech Community</BlueText>
-					</Heading>
-					<Paragraph
-						to="2rem"
-						bottom="1.5rem">
-						I enjoy participating in local courses, events and competitions,
-						bootcamps and more organized by tech communities in Medellín. This
-						dedication and training has helped me win several web programming
-						scholarships.
-						<br />
-						Tech Communities:
-						<br />
-						Women Who Code Medellin
-						<br />
-						Blockchain eX - Innovation Center
-					</Paragraph>
-					<SkillsCardContainer>
-						<img
-							src={wwc}
-							alt="wwc"
-							width="100%"
-							height="auto"
-							title="Women Who Code Medellin"
-						/>
-					</SkillsCardContainer>
-					<br />
-					<SkillsCardContainer>
-						<img
-							src={blockchain}
-							alt="blockchain"
-							width="100%"
-							height="auto"
-							title="Blockchain eX - Innovation Center"
-						/>
-					</SkillsCardContainer>
-					<br />
-					<SkillsCardContainer>
-						<img
-							src={wwc2}
-							alt="wwc"
-							width="100%"
-							height="auto"
-							title="Women Who Code Medellin"
-						/>
-					</SkillsCardContainer>
+					<Community />
 				</div>
 			</FlexContainer>
 		</PaddingContainer>

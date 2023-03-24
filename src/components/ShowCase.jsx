@@ -51,6 +51,8 @@ const ShowCase = () => {
 						bottom="4rem">
 						💻 Web developer focused on Frontend development located in Medellin
 						- Colombia 📍🌍
+						<br />I am currently looking for new opportunities to grow as a web
+						developer. 🔍
 					</Paragraph>
 					<FlexContainer gap="20px">
 						<IconContainer

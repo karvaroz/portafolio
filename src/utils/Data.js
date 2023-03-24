@@ -16,6 +16,8 @@ import firebaseLogo from "../assets/svg/firebase.svg";
 import styledLogo from "../assets/svg/styled-components.svg";
 import scrumLogo from "../assets/svg/scrum.svg";
 
+import contestImg from "../assets/img/project2.png";
+
 export const SkillsData = [
 	{
 		id: 1,
@@ -101,5 +103,52 @@ export const SkillsData = [
 		id: 18,
 		tech: "Scrum Methodology",
 		icon: scrumLogo,
+	},
+];
+
+export const ProjectsData = [
+	{
+		id: 1,
+		name: "Blockmaster",
+		description: "movie streaming platform",
+		stack: [
+			"ReactJS",
+			"Redux",
+			"Hooks",
+			"React-router",
+			"Formik",
+			"Yup",
+			"Bootstrap",
+			"Styled Components",
+			"Dynamic Routing",
+			"Routes Protection",
+			"Firebase",
+			"Cloudinary",
+		],
+		image:
+			"https://camo.githubusercontent.com/eb31bdc557c70b47dd65176f6d3fe906d3c93d26c7b765063120ea80dfc9ac40/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6b61727661726f7a2f696d6167652f75706c6f61642f76313635323634333236392f626c6f636b6d61737465722f66343667616e6f7934696965346761756b64686c2e6a7067",
+		demo: "https://blockmaster-karvaroz.vercel.app/",
+		github: "https://github.com/karvaroz/blockmaster",
+		reverse: false,
+	},
+	{
+		id: 2,
+		name: "Contest app",
+		description: "Question and answer contest",
+		stack: ["ReactJS", "Hooks", "React-router", "Tailwind CSS"],
+		image: contestImg,
+		github:
+			"https://github.com/karvaroz/concurso-de-preguntas-y-respuestas/blob/master/README.md",
+		reverse: true,
+	},
+	{
+		id: 3,
+		name: "Star wars app",
+		description: "Creation of a simple react app with a star wars theme",
+		stack: ["ReactJS", "CSS", "Axios", "React-router", "API"],
+		image: contestImg,
+		github:
+			"https://github.com/karvaroz/concurso-de-preguntas-y-respuestas/blob/master/README.md",
+		reverse: false,
 	},
 ];
