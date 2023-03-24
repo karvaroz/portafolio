@@ -14,7 +14,10 @@ const Projects = () => {
 		<PaddingContainer
 			id="projects"
 			top="5%"
-			bottom="5%">
+			bottom="5%"
+			responsiveTop="20%"
+			responsiveLeft="1rem"
+			responsiveRight="1rem">
 			<Heading
 				as="h4"
 				size="h4">
@@ -25,22 +28,14 @@ const Projects = () => {
 				size="h2">
 				What <BlueText>I have built </BlueText>
 			</Heading>
-			<br />
-			<br />
-			<br />
-			<br />
 
 			{myProjects.map((project) => (
-				<React.Fragment>
-					<ProjectCard
-						key={project.id}
-						project={project}
-					/>
-					<br />
-					<br />
-					<br />
-					<br />
-				</React.Fragment>
+				<PaddingContainer
+					key={project.id}
+					to="5rem"
+					bottom="5rem">
+					<ProjectCard project={project} />
+				</PaddingContainer>
 			))}
 		</PaddingContainer>
 	);

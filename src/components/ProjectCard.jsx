@@ -40,8 +40,7 @@ const ProjectCard = ({ project }) => {
 				</FlexContainer>
 				<PaddingContainer top="1rem">
 					<FlexContainer
-						gap="1rem"
-						width="500px"
+						gap="1.5rem"
 						wrap="wrap">
 						{project.stack.map((stack, idx) => (
 							<TechStackCard key={idx}>{stack}</TechStackCard>

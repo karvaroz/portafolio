@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const ParticleContainer = styled.div`
 	position: relavite;
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+		display: none;
+	}
 `;
 
 export const ImageCard = styled.div`

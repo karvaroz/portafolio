@@ -23,7 +23,10 @@ const ShowCase = () => {
 			left="3%"
 			right="10%"
 			top="15%"
-			bottom="10%">
+			bottom="10%"
+			responsiveLeft="1rem"
+			responsiveRight="1rem"
+			responsiveTop="8rem">
 			<FlexContainer
 				align="center"
 				fullWidthChild>
@@ -54,7 +57,9 @@ const ShowCase = () => {
 						<br />I am currently looking for new opportunities to grow as a web
 						developer. 🔍
 					</Paragraph>
-					<FlexContainer gap="20px">
+					<FlexContainer
+						gap="20px"
+						responsiveFlex>
 						<IconContainer
 							as="a"
 							href="https://www.linkedin.com/in/karina-vargas-developer/"

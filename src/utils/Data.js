@@ -17,6 +17,7 @@ import styledLogo from "../assets/svg/styled-components.svg";
 import scrumLogo from "../assets/svg/scrum.svg";
 
 import contestImg from "../assets/img/project2.png";
+import starImg from "../assets/img/project3.png";
 
 export const SkillsData = [
 	{
@@ -110,7 +111,7 @@ export const ProjectsData = [
 	{
 		id: 1,
 		name: "Blockmaster",
-		description: "movie streaming platform",
+		description: "Movie streaming platform",
 		stack: [
 			"ReactJS",
 			"Redux",
@@ -148,7 +149,7 @@ export const ProjectsData = [
 		name: "Star wars app",
 		description: "Creation of a simple react app with a star wars theme",
 		stack: ["ReactJS", "CSS", "Axios", "React-router", "API"],
-		image: contestImg,
+		image: starImg,
 		demo: "https://blockmaster-karvaroz.vercel.app/",
 		github:
 			"https://github.com/karvaroz/concurso-de-preguntas-y-respuestas/blob/master/README.md",
